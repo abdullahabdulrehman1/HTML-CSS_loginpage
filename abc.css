@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+
+}
+
+
+
+
+body {
+
+    background-image: url(https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+   
+    cursor: crosshair;
+   
+    background-repeat: no-repeat;
+   
+    background-size: cover;
+}
+
+
+
+
+.container {
+
+    background: rgb(80, 194, 57);
+    background: radial-gradient(circle, rgb(126, 73, 85) 0%, rgba(156, 40, 139, 0.521) 84%, rgba(102, 121, 68, 0.096) 90%);
+    /*rgba(0,0,0,.5); */
+    color: #fff;
+    min-width: 26%;
+    max-width: 20%;
+    min-height: 30%;
+    max-height: 20%;
+    padding: 50px 50px 80px 70px;
+    transition:all 2s;
+    
+    margin: 153px 91px 66px 539px;
+    border-radius: 4ch;
+    box-shadow: 0px 29px 117px 40px rgba(247, 22, 22, 0.67);
+    /* -webkit-box: x-shadow 38px 29px 117px 40px rgba(247, 22, 22, 0.67); */
+    /* -moz-box-shadow: 38px 29px 117px 40px rgba(247, 22, 22, 0.67); */
+    animation: myAnim 5s ease 0s 2s normal backwards;
+    box-shadow: 0px 10px 20px 40px rgba(197, 11, 11, 0.722);
+
+    
+    
+}
+
+
+
+
+@keyframes myAnim {
+    0% {
+        transform: translateX(-50px);animation-delay: 2s;animation-timing-function: cubic-bezier(175, 10.82, 230.165, 1);
+    }
+    
+    50% {
+        transform:translateX(20px);
+    }
+    60% {
+        rotate: 95deg;
+    }
+    60% {
+        rotate:360deg;
+    }
+
+    100% {
+        animation-iteration-count: 2;rotate: 36deg;
+    }
+}
+
+
+
+
+.container:hover {
+    /* background: linear-gradient(180deg, rgba(61, 233, 87, 1) 0%, rgba(233, 148, 181, 1) 100%); */
+
+    background-color: rgba(187, 197, 42, 0.262);
+    ;
+
+    box-shadow: 0px 10px 20px 40px rgba(209, 21, 156, 0.722);
+    /* -webkit-box: x-shadow 38px 29px 117px 40px rgba(205, 41, 158, 0.722); */
+    /* -moz-box-shadow: 38px 29px 117px 40px rgba(205, 41, 158, 0.722); */
+    
+    
+    
+
+    transition:all 2s;
+    
+}
+
+
+
+
+
+
+
+#login {
+    border-bottom: 3px solid black;
+    text-align: center;
+    color: black;
+    font-size: 3ch;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-decoration: double;
+    font-size: xx-large;
+    border-radius: 20px;
+    box-shadow: 0px 1px 50px 20px rgba(52, 8, 250, 0.722);
+    font-weight: bolder;
+}
+
+
+
+#login:hover {
+
+    box-shadow: 0px 1px 50px 20px rgba(3, 218, 189, 0.722);
+    transition:all 2s;
+    
+    transition:all 2s;
+}
+
+
+
+.info {
+
+    border: 5px groove black;
+    border-radius: 10px;
+    border-spacing: 200px;
+    box-shadow: 0px 0px 40px 20px rgba(77, 250, 8, 0.722);
+
+    padding: 50px 50px 50px 50px;
+
+}
+
+.info:hover {
+    background-color: rgba(104, 42, 128, 0.236);
+    ;
+    box-shadow: 0px 0px 40px 20px rgba(250, 8, 8, 0.722);
+    
+    border-color: blue;
+    transition: all  2s;
+}
+
+
+input[type] {
+    background-color: transparent;
+    border: transparent;
+    border-bottom: 2px solid black;
+
+    width: 25ch;
+    height: 2ch;
+    padding: 1px 15px 5px 5px;
+    margin: 14px 2px 6px 1px;
+
+
+}
+
+
+input[placeholder] {
+    padding-left: 50px;
+    color: yellow;
+    font-weight: bold;
+    font-size: 12px;
+    
+    margin: auto;
+
+}
+
+#user {
+    color: rgba(0, 0, 0, .5);
+    
+    
+
+}
+
+#password {
+    margin: 1px 1px 1px 2px;
+    padding-block: 5px;
+    width: 200px;
+    max-width: 200px;
+
+
+}
+
+#username {
+    margin: 1px 1px 1px 2px;
+    padding-block: 5px;
+    width: 200px;
+
+}
+
+#but[type] {
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 2ch;
+    padding: 11px 25px 33px 31px;
+    text-align: center;
+    margin: 40px 50px 5px 50px;
+    width: 20ch;
+    font-size: 2ch;
+    width: 20ch;
+    box-shadow: inset 39px 30px 39px rgba(247, 22, 22, 0.67);
+}
+
+#but[type]:hover {
+    background-color: rgba(0, 0, 0, .5);
+    box-shadow: inset 39px 30px 39px rgba(228, 22, 247, 0.67);
+    cursor: pointer;
+    transition:cubic-bezier(0.075, 0.82, 0.165, 1) 2s;
+}
+
+
+#username:hover {
+
+    box-shadow: inset 39px 30px 39px rgba(228, 22, 247, 0.67);
+    border-radius: 2ch;
+}
+
+
+
+#password:hover {
+    
+    box-shadow: inset 39px 30px 39px rgba(228, 22, 247, 0.67);
+    border-radius: 2ch;
+    
+}
+
+
+
+a {
+
+    background-color: transparent;
+    color: white;
+}
+
+
+a:hover {
+
+    background-color: green;
+    color: white;
+    border-radius: 2ch;
+    padding: 2px 2 2 2px;
+}
+.navi{animation-name: abd;}
